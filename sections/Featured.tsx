@@ -12,14 +12,14 @@ interface Cake {
 }
 
 const cakes: Cake[] = [
-  { id: 1, name: "Red Velvet Cake", image: "/cakepics/rachie_cake_1.png" },
-  { id: 2, name: "Chocolate Cake", image: "/cakepics/rachie_cake_two.png" },
-  { id: 3, name: "Wedding Cake", image: "/cakepics/rachie_cake_three.png" },
-  { id: 4, name: "Vanilla Cake", image: "/cakepics/rachie_cake_sample2.png" },
-  { id: 5, name: "Carrot Cake", image: "/cakepics/rachie_cake_sample.png" },
-  { id: 6, name: "Lemon Cake", image: "/cakepics/rachie_cake_sample.png" },
-  { id: 7, name: "Birthday Cake", image: "/cakepics/rachie_cake_sample.png" },
-  { id: 8, name: "Cupcakes", image: "/cakepics/rachie_cake_sample.png" },
+  { id: 1, name: "Birthday Cake", image: "/cakepics/rachie_cake_1.png" },
+  { id: 2, name: "Birthday Cake", image: "/cakepics/rachie_cake_two.png" },
+  { id: 3, name: "Birthday Cake", image: "/cakepics/rachie_cake_three.png" },
+  { id: 4, name: "Chocolate Cake", image: "/cakepics/rachie_cake_sample2.png" },
+  { id: 5, name: "Wedding Cake", image: "/cakepics/rachie_cake_sample.png" },
+  { id: 6, name: "Wedding Cake", image: "/cakepics/rachie_cake_sample.png" },
+  { id: 7, name: "Wedding Cake", image: "/cakepics/rachie_cake_sample.png" },
+  { id: 8, name: "Wedding Cake", image: "/cakepics/rachie_cake_sample.png" },
 ];
 
 export default function Featured() {

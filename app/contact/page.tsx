@@ -33,7 +33,7 @@ function useReveal() {
 const infoCards = [
   { label: "Location", value: "Paynesville, Liberia" },
   { label: "Hours", value: "Mon – Sat: 8am – 7pm" },
-  { label: "WhatsApp", value: "+234 88 137 1963" },
+  { label: "WhatsApp", value: "+231 88 137 1963" },
 ];
 
 export default function ContactPage() {
