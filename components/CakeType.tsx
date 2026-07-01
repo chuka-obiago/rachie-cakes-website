@@ -63,7 +63,7 @@ export default function CakeType({
   return (
     <section
       ref={sectionRef}
-      className="w-full py-16 sm:py-20"
+      className="w-full pt-16 sm:pt-20 pb-0"
       style={{ backgroundColor: bg }}
     >
       <div

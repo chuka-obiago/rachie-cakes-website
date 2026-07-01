@@ -74,29 +74,40 @@ export default function CakesPage() {
 
       {/* Imported component goes here */}
       <CakeType
-        title="Birthday Cakes"
+        title="Classic Cakes"
         bg="#f1f3f4"
         cakes={[
-          { id: 1, image: "/cakepics/rachie_cake_1.png" },
-          { id: 2, image: "/cakepics/rachie_cake_two.png" },
-          { id: 3, image: "/cakepics/rachie_cake_three.png" },
-          { id: 4, image: "/cakepics/rachie_cake_sample2.png" },
-        ]}
-      />
-
-      <CakeType
-        title="Wedding Cakes"
-        bg="#f1f3f4"
-        cakes={[
-          { id: 1, image: "/cakepics/rachie_cake_sample.png" },
-          { id: 2, image: "/cakepics/rachie_cake_sample.png" },
-          { id: 3, image: "/cakepics/rachie_cake_sample.png" },
+          { id: 1, image: "/cakepics/rachie_2.png" },
+          { id: 2, image: "/cakepics/rachie_5.png" },
+          { id: 3, image: "/cakepics/rachie_4.png" },
           { id: 4, image: "/cakepics/rachie_cake_sample.png" },
         ]}
       />
 
+      <CakeType
+        title="Character Themed Cakes"
+        bg="#f1f3f4"
+        cakes={[
+          { id: 1, image: "/cakepics/rachie_cake_two.png" },
+          { id: 2, image: "/cakepics/rachie_cake_three.png" },
+          { id: 3, image: "/cakepics/rachie_cake_1.png" },
+          { id: 4, image: "/cakepics/rachie_6.png" },
+        ]}
+      />
+
+      <CakeType
+        title="Birthday Cakes"
+        bg="#f1f3f4"
+        cakes={[
+          { id: 1, image: "/cakepics/rachie_1.png" },
+          { id: 2, image: "/cakepics/rachie_cake_sample2.png" },
+          { id: 3, image: "/cakepics/rachie_8.png" },
+          { id: 4, image: "/cakepics/rachie_3.png" },
+        ]}
+      />
+
       {/* Custom Cakes */}
-      <section className="w-full py-16 sm:py-24 bg-[#f1f3f4]">
+      <section className="w-full py-20 sm:py-30 bg-[#f1f3f4]">
         <div
           ref={custom.ref}
           className={`w-[85%] sm:w-[80%] mx-auto flex flex-col md:flex-row items-center gap-10 md:gap-16 transition-all duration-700 ease-out ${

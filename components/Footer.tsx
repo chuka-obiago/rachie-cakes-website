@@ -45,7 +45,7 @@ export default function Footer() {
               className="flex items-center gap-2 text-sm font-medium text-gray-300 transition-colors duration-300 hover:text-[#25D366]"
             >
               <FaWhatsapp className="text-base text-[#25D366]" />
-              <span>WhatsApp No: +231 881371963</span>
+              <span>WhatsApp No: +231 88 137 1963</span>
             </a>
 
             {/* Social Icon Links */}
